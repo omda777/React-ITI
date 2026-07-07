@@ -1,0 +1,166 @@
+<html>
+
+<head>
+    <title>
+        Tble Page
+    </title>
+</head>
+
+<body bgcolor="lightgreen">
+    <!--
+direct child for table tage is Table Row==>tr
+direct child for tr inside table is table data ===>td
+direct child for td inside table any type of data (text,p,h2,b,i,img,table)      
+direct child for tr===>table header th===>styled tag content center inside cell and bold
+space between table cell and content inside same cell cellpadding
+-->
+    <table border="2">
+
+        <tr>
+            <td>HI</td>
+        </tr>
+        <tr>
+            <td>HI2</td>
+        </tr>
+    </table>
+
+    <table border="2" cellpadding="10" cellspacing="5" bgcolor="lightcyan">
+        <caption>this is Student Data</caption>
+        <tr>
+            <th>Serial</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Track</th>
+            <th>Faculty</th>
+            <th>Email Address</th>
+            <th>Branch</th>
+            <th>Image</th>
+        </tr>
+        <tr bgcolor="yellow">
+            <td rowSpan="2">20202020</td>
+            <td rowSpan="2">John Doe</td>
+            <td rowspan="2">25</td>
+            <td>Computer Science</td>
+            <td rowSpan="2">Engineering</td>
+            <td>john.doe@example.com</td>
+            <td bgcolor="lightblue" rowSpan="2">Branch Mansoura</td>
+            <td rowSpan="2"><img src="../images/boy.jpeg" alt="Profile Image" width="70" height="60"></td>
+        </tr>
+        <tr bgcolor="yellow">
+            <td>Frontend Development</td>
+            <td>john2.doe@example.com</td>
+        </tr>
+        <tr>
+            <td>10101010</td>
+            <td>Jane Smith</td>
+            <td>22</td>
+            <td>Information Technology</td>
+            <td>Science</td>
+            <td>jane.smith@example.com</td>
+            <td>Branch Cairo</td>
+            <td><img src="../images/girl.png" alt="Profile" width="70" height="60"></td>
+        </tr>
+        <tr>
+            <td>30303030</td>
+            <td>Michael Johnson</td>
+            <td>28</td>
+            <td>Software Engineering</td>
+            <td>Engineering</td>
+            <td>michael.johnson@example.com</td>
+            <td>Branch Alexandria</td>
+            <td><img src="../images/boy.jpeg" alt="Profile" width="70" height="60"></td>
+        </tr>
+        <tr bgcolor="#21d952" align="center">
+            <td colspan="8">This is a combined cell spanning all columns.</td>
+        </tr>
+        <tr bgcolor="#21d952" align="center">
+            <td colspan="8"><img src="../images/enter.jpg" alt="Combined Image" width="100" height="120"></td>
+        </tr>
+        <tr>
+            <td colspan="8" align="center">
+                <table cellpadding="10" cellspacing="5" bgcolor="#7721d9">
+                    <caption>this is Student Data</caption>
+                    <tr>
+                        <th>Serial</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Track</th>
+                        <th>Faculty</th>
+                        <th>Email Address</th>
+                        <th>Branch</th>
+                        <th>Image</th>
+                    </tr>
+                    <tr bgcolor="yellow">
+                        <td rowSpan="2">20202020</td>
+                        <td rowSpan="2">John Doe</td>
+                        <td rowspan="2">25</td>
+                        <td>Computer Science</td>
+                        <td rowSpan="2">Engineering</td>
+                        <td>john.doe@example.com</td>
+                        <td bgcolor="lightblue" rowSpan="2">Branch Mansoura</td>
+                        <td rowSpan="2"><img src="../images/boy.jpeg" alt="Profile Image" width="70" height="60"></td>
+                    </tr>
+                    <tr bgcolor="yellow">
+                        <td>Frontend Development</td>
+                        <td>john2.doe@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>10101010</td>
+                        <td>Jane Smith</td>
+                        <td>22</td>
+                        <td>Information Technology</td>
+                        <td>Science</td>
+                        <td>jane.smith@example.com</td>
+                        <td>Branch Cairo</td>
+                        <td><img src="../images/girl.png" alt="Profile" width="70" height="60"></td>
+                    </tr>
+                    <tr>
+                        <td>30303030</td>
+                        <td>Michael Johnson</td>
+                        <td>28</td>
+                        <td>Software Engineering</td>
+                        <td>Engineering</td>
+                        <td>michael.johnson@example.com</td>
+                        <td>Branch Alexandria</td>
+                        <td><img src="../images/boy.jpeg" alt="Profile" width="70" height="60"></td>
+                    </tr>
+                    <tr bgcolor="#9b4cf5" align="center">
+                        <td colspan="8">This is a combined cell spanning all columns.</td>
+                    </tr>
+                    <tr bgcolor="#9b4cf5" align="center">
+                        <td colspan="8"><img src="../images/enter.jpg" alt="Combined Image" width="100" height="120">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+
+    <table cellpadding="10" cellspacing="5" align="center">
+        <tr>
+            <td>
+                <p>Welcome to our website!</p>
+            </td>
+            <td>
+                <p>
+                    ITI Mansoura Branch
+                </p>
+            </td>
+        </tr>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

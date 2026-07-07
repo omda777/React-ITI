@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <title>Images</title>
+</head>
+
+<body>
+    <!--self closing Tag
+    predefined Attributes  for images
+    1-src ===>string ====>Path of image
+    Path of image ===>a-name of image with extension
+    code page and image  at the same folder
+    extension of image ===>jpg,png,gif,svg 
+    path of imge====>different folder 
+    current page code call image where ===>folder name with image name and extension
+    2-change default size of image ===>width and height
+    width and height ===>number of pixels
+    -->
+    <!--
+    browser ===>chnages ===>code
+    Not need ===>Refresh browser tab
+    UI page ====>over server 
+    Install live server extention
+    -->
+    <!-- <img /> -->
+    <!-- <img src="girl.png" hspace="20" border="5" vspace="20" /> -->
+    <!-- display image with default size  of width and height-->
+    <!-- <img src="../images/girl.png" width="50" height="50" hspace="20" vspace="20" /> -->
+
+    <!-- <img src="../images/girl.png" border="5" hspace="20" vspace="20" /> -->
+    <!-- color for border of image -->
+    <!-- font tag wrapper image tag inside it-->
+    <!-- <font color="green"> -->
+    <!-- <img src="../images/boy.jpeg" border="5"  vspace="20" hspace="20"/> -->
+    <!-- MyImage -->
+    <!-- </font> -->
+    <!-- Space between images 
+    vspace===>vertical space 
+    -->
+    <!-- <img src="../images/Map.jpg" border="2"/> -->
+    <!-- path of image ===>not founded-->
+    <!-- <img src="../images/Map1.jpg" border="2" alt="this image not founded"/> -->
+    <!-- <img src="../images/enter.jpg" border="2" alt="this image not founded"/> -->
+
+    <!-- Align of Images -->
+    <!-- <img src="../images/girl.png" border="2" /> -->
+    <!-- chnage default align for images-->
+    <!-- <img src="../images/boy.jpeg" border="2" align="right" /> -->
+    <!-- <img src="../images/Map.jpg" border="2"/> -->
+    <!-- fixed align -->
+    <!-- <img src="../images/enter.jpg" align="left"/> -->
+
+
+    <!-- align value attribute for image 
+    value =Top ,bottom,center====>text next to image 
+    value=left ,right===>image itself
+    -->
+    <!--Wrapped image tag with center tag-->
+    <!--senario One-->
+    <font color="red">
+        <img border="3" src="../images/girl.png" align="center" />
+        MyGirl
+    </font>
+    <font color="green">
+        <img border="3" src="../images/boy.jpeg" align="top" />MyBoy
+    </font>
+
+    <!-- senario Two-->
+    <p>
+        <font color="green">
+            <img border="3" src="../images/boy.jpeg" align="top" />MyBoy
+        </font>
+    </p>
+    <center>
+        <img src="../images/girl.png" />
+    </center>
+
+
+    <!-- Image Map -- display image with default width and height -->
+
+    <img hspace="10" vspace="10" src="../images/Map.jpg" border="2" align="bottom" usemap="#MyMap" />
+    <map name="MyMap">
+        <area shape="rect" coords="16,54,160,103" href="http://www.google.com" />
+        <area shape="circle" coords="165,215,75" href="../images/boy.jpeg" target="_blank" />
+        <area shape="poly" coords="16,54,160,103,165,215" href="MyData.txt" target="_blank" />
+    </map>
+
+
+</body>
+
+</body>
+
+</html>
