@@ -1,0 +1,67 @@
+body{
+    background:#444;
+    font-family:Arial, sans-serif;
+}
+
+table{
+    width:900px;
+    margin:20px auto;
+    border-collapse:separate;
+    border-spacing:6px;
+    color:white;
+    text-align:center;
+}
+
+td,th{
+    background:#333;
+    padding:10px;
+}
+
+.choose{
+    color:#18c7f5;
+    font-size:30px;
+    font-weight:normal;
+}
+
+.title{
+    background:#18c7f5;
+    color:white;
+    padding:8px;
+    font-size:22px;
+    text-transform:lowercase;
+}
+
+.price{
+    background:black;
+    padding:15px;
+    font-size:40px;
+}
+
+.price span{
+    font-size:16px;
+}
+
+td:first-child{
+    text-align:left;
+}
+
+.bottom h2{
+    color:#18c7f5;
+    margin:0;
+}
+
+.bottom p{
+    margin:5px 0 10px;
+}
+
+button{
+    background:#18c7f5;
+    color:white;
+    border:none;
+    padding:8px 18px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0da8d4;
+}

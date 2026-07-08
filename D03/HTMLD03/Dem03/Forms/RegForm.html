@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body bgcolor="lightgreen">
+    <!--
+    inputs types 
+    default ==>text
+    type====>password===>hide data inside input field
+    type===>submit===>button style clicked default text display submit
+    type===>date of birth===>musr numbers for data format===>date
+    type===> only choose one of Two or many selection ==>radio===>whole radios with same name attribute value
+    sumbit radio ===>selected radio with value attribute value send to action page
+    element ===>textarea===>multi line input field===>rows and cols attributes===>width and height for textarea ===>value catch from user
+    1- Input type checkbox===>multiple selection from many options===>name attribute value must be same for all checkboxes===>value attribute value for each checkbox must be unique
+    2-Element Name select===>drop down list===>many of opetion ===>Select one opetion name and value===>value of selected option
+    3-Element select====>multiple selection from many options===>name attribute value must be same for all options===>prop ===>multiple
+===>input type reset ===>button stled clicked ===>clear whole data inisde input fields
+    -->
+    <form action="Responde.html" method="get">
+        <table align="center" bgcolor="lightblue" cellpadding="10" cellspacing="10">
+            <tr>
+                <td>UserName</td>
+                <td><input name="userName" value="Eman" size="50" /></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input name="userPass" type="password" /></td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td><input type="date" name="DOB" /></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male" /> Male
+                    <input type="radio" name="gender" value="female" /> Female
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Courses</td>
+                <td>
+                    <input type="checkbox" name="courses" value="HTML" /> HTML
+                    <input type="checkbox" name="courses" value="CSS" /> CSS
+                    <input type="checkbox" name="courses" value="JS" /> JS
+                    <input type="checkbox" name="courses" value="PHP" /> PHP
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="courses" value="Python" /> Python
+                    <input type="checkbox" name="courses" value="Java" /> Java
+                    <input type="checkbox" name="courses" value="C++" /> C++
+                    <input type="checkbox" name="courses" value="C#" /> C#
+                </td>
+            </tr>
+            <tr>
+                <td> Choose Your University</td>
+                <td>
+                    <select name="university">
+                        <option value="Mans">Mansoura</option>
+                        <option value="AS">AinShams</option>
+                        <option value="Alx">Alex</option>
+                        <option value="Cairo">Cairo</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Tracks</td>
+                <td>
+                    <select name="tracks" multiple>
+                        <option value="Web">Web</option>
+                        <option value="Mobile">Mobile</option>
+                        <option value="Desktop">Desktop</option>
+                        <option value="Data">Data</option>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Comments</td>
+                <td><textarea name="comments" rows="5" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <table cellpadding="10" cellspacing="10">
+                        <tr>
+                            <td><input type="submit" /></td>
+                            <td><input type="reset" /></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+
+</html>

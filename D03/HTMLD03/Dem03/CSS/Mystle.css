@@ -1,0 +1,15 @@
+ input[type=button] {
+     background-color: yellow;
+ }
+
+ p:hover {
+     background-color: yellow;
+     border-radius: 80px;
+     border: 10px groove khaki;
+ }
+
+ body {
+     /*by default image repeated*/
+     background-image: url("../UP/sky.jpg");
+     /* background-repeat: no-repeat; */
+ }

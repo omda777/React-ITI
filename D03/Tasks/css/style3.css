@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: white;
+    text-align: center;
+}
+
+.container{
+    width: 90%;
+    margin: 20px auto;
+}
+
+h1{
+    color: green;
+    margin-bottom: 20px;
+}
+
+.intro{
+    color: #666;
+    margin-bottom: 10px;
+}
+
+hr{
+    border: 1px dashed brown;
+    margin: 20px 0;
+}
+
+.birds{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card img{
+    width: 220px;
+    height: 170px;
+}
+
+.card h3{
+    color: brown;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card p{
+    color: green;
+    font-size: 14px;
+}
+
+h2{
+    color: green;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+h4{
+    color: brown;
+    margin-top: 20px;
+    font-style: italic;
+}

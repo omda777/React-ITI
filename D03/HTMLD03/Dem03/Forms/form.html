@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Forms</title>
+</head>
+
+<body bgcolor="lightgreen">
+    <!--
+        elemens Tags 
+        type data ====>accept from user ====>type of tag
+        by default ====>input ====>text====>selfclosing tag ===>not displayed tag,inline element
+        direct child for form tag ===>input element tag
+        each element inside form must be uinque value ===>with name attribute link between input and his value
+        direct child element inside form ====>
+        1-Take value of data ===>insert inside inputs====>type of input ===>submit ===>button style clicked default text display submit
+        2- send data to anthor page===>must put attribute ===>action ===>value ==>path of page ===>Send data ===>form itself
+        3-validate data ===>as password ===>showed inside inputfield 
+    4-sending without appears over url
+    How To send Data ===>Methods
+    Method By deault ===>get ===>data appears url of action page
+    send data without appears url====>method ===>post===>anthor step handling data 
+    Method===>attribute ===>form itself
+        -->
+    <form action="Server.html" method="get">
+        UserName<input name="usrName" />
+        Password<input name="usrPass" />
+        Email<input name="usrEmail" />
+        <hr />
+        <input type="submit" />
+    </form>
+    DOB<input name="DOB" />
+</body>
+
+</html>

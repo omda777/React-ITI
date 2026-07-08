@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <title>Titles and Container Tags</title>
+    <!-- Style Tag -->
+    <style>
+        /* Inline CSS styles can be defined here 
+        Calling HTML Elment ====>properties style ===>wrapped with {
+        propertyname:propertyvalue;
+        }
+
+        //How To Call HTML ELement ===>Call Element By Tag Name ===>h1,h2,h3,div,span,input,textarea,select,option
+        search for whole span inside page and apply style properties over it
+        */
+        span {
+            color: darkblue;
+            background-color: lightgreen;
+            text-align: center;
+            font-family: Arial;
+            font-size: 20px;
+        }
+
+        /*
+        //How To Call HTML ELement ===>Call Element By Class Name ===>class attribute
+        //How To Call HTML ELement ===>Call Element By ID Name ===>id attribute
+        //How To Call HTML ELement ===>Call Element By Attribute Name ===>any attribute
+        */
+    </style>
+</head>
+
+<body bgcolor="lightcyan">
+    <!-- clean code
+1-Well formatted code ====>indentation and spaces between lines accoring to Lang
+2-Valid code ====>no errors in code ====>no errors in browser console,math business logic
+3-Commented code ====>commented code inside code ====>commented code for each element and each line of code
+4-Readable code ====>code must be readable and understandable for any developer
+5-No redandance Code ===>No repeated code ===>No repeated code for any element or any line of code
+6-reusable code ===>code must be reusable for any element or any line of code 
+
+-->
+    <!-- Attribute Style over any element 
+    value of style attribute ====>String  
+    value of style Attribute ====>style properties 
+    each property ===>name and value 
+    "propertyname:properyvalue"====>predefined properties and values
+    
+    -->
+    <form>
+        <font color="red" size="5" face="Arial"><span>WELCOME</span></font> <!--Not Used-->
+
+        <!--Inline Style 1==>direct attribute opening tag for element ===>high priorty of interprtation-->
+        <span
+            style="color:red;font-size:25px;background-color:lightblue;font-family:Verdana, Geneva, Tahoma, sans-serif;border:8px solid black">WELCOME
+            WITH STYLE</span>
+
+
+
+
+
+        <!--span inline element-->
+        <span align="center" style="color:red">
+            USERNAME
+        </span>
+        <!-- div ===>block element ===========>take space of line and save line before and line after -->
+        <!-- <div align="center">
+            <input name="usrName" />
+        </div> -->
+        <span>Email</span>
+        <div><input type="email" name="usrEmail" /></div>
+    </form>
+    <label>
+        address
+
+    </label>
+    <div>
+        Main Track Content
+
+    </div>
+    -->
+
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <title>CSS Selectors</title>
+    <style>
+        p {
+            color: darkslategrey;
+            text-decoration: underline;
+            font-family: Arial;
+            border: 5px grove darkblue;
+            background-color: lightgreen;
+            text-align: center;
+            letter-spacing: 5px;
+            font-weight: bold;
+        }
+
+        /* p {
+            /*override value */
+        /* color: yellow; */
+        /* background-color: blue; */
+        /* } */
+
+
+        /* How To Call HTML ELement ===>Call Element By Class Name ===>class attribute
+        Many different element with the same style properties ===>class attribute value must be same for all elements
+        
+        */
+        /* .Mystyle {
+            border: "5px dashed darkblue";
+            background-color: lightsalmon;
+            text-align: right;
+            font-family: tahoma;
+            font-size: 20px;
+            color: brown;
+        } */
+
+        /*Select Element By Id value*/
+        /* #Myform {
+            text-align: center;
+            text-decoration: dotted;
+            font-size: 25px;
+            font-style: italic;
+            letter-spacing: 10;
+            color: green;
+            background-color: yellow;
+        } */
+
+        /*Grouping Selector*/
+        /* p,
+        div,
+        .MyStyle,
+        #Myform {
+            color: darkred;
+            border: 5px dashed yellow;
+            text-align: center;
+        } */
+
+        /*General Selector*/
+        /* * {
+            border: 5px solid red;
+        } */
+
+        /* body {
+            border: 10px groove gray;
+        } */
+        /*
+        select element by atribute
+        */
+        input[type] {
+            background-color: red;
+        }
+
+        /* <link href=""===>for external css file */
+    </style>
+    <link href="Mystle.css" rel="stylesheet" />
+</head>
+
+<body>
+    <span>Welcome To ITI</span>
+    <label>ITI</label>
+    <p class="Mystyle TextStyle">ITI Mansoura Branch</p>
+    <p>ITI Mansoura Branch</p>
+    <p style="background-color: aqua; color:darkmagenta;text-align:center;font-size: 25px;border: 5px solid darkgreen;">
+        ITI Mansoura Branch</p>
+    <p>ITI Mansoura Branch</p>
+    <p>ITI Mansoura Branch</p>
+    <p class="Mystyle">ITI Mansoura Branch</p>
+    <p>ITI Mansoura Branch</p>
+    <h2>FrontEnd Track ReactG02</h2>
+    <h2 class="Mystyle">FrontEnd Track ReactG02</h2>
+    <input type="text" />
+    <input type="text" />
+    <input type="button" value="Click Me" />
+    <input type="button" value="Click Me" />
+    <a href="ftp.txt">FTP</a>
+    <div>ITI Mansoura Branch</div>
+    <div>ITI Mansoura Branch</div>
+    <div>ITI Mansoura Branch</div>
+    <div class="Mystyle">ITI Mansoura Branch</div>
+    <div>ITI Mansoura Branch</div>
+    <div>ITI Mansoura Branch</div>
+    <div>ITI Mansoura Branch</div>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Eman ALi</td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td>20</td>
+        </tr>
+    </table>
+
+    <form id="Myform">
+        <div>
+            <label for="userName">UserName</label>
+            <input type="text" id="userName" name="userName" />
+        </div>
+        <div>
+            <label for="userPass">Password</label>
+            <input type="password" id="userPass" name="userPass" />
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#efe2aa;
+}
+
+.container{
+    width:1100px;
+    margin:20px auto;
+    border:3px solid #666;
+    background:#f4e6b2;
+}
+
+h1{
+    text-align:center;
+    padding:20px;
+    font-size:42px;
+    font-weight:bold;
+}
+
+.content{
+    display:flex;
+}
+
+.reviews{
+    flex:3;
+}
+
+.score{
+    background:#3f5b2d;
+    color:#fff;
+    padding:20px;
+    display:flex;
+    align-items:flex-end;
+    gap:15px;
+}
+
+.fresh{
+    font-size:28px;
+    color:orange;
+    font-weight:bold;
+}
+
+.percent{
+    color:red;
+    font-size:80px;
+    font-weight:bold;
+    line-height:1;
+}
+
+.count{
+    font-size:18px;
+}
+
+.review-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    padding:20px;
+}
+
+.review{
+    border:2px solid #888;
+    background:#f7edc8;
+    padding:15px;
+    min-height:170px;
+}
+
+.review p{
+    font-weight:bold;
+    margin-bottom:25px;
+}
+
+.review h4{
+    margin-top:10px;
+    font-size:18px;
+}
+
+.review span{
+    font-style:italic;
+    color:#555;
+}
+
+.sidebar{
+    width:320px;
+    background:#b3c46b;
+    padding:20px;
+    border-left:3px solid #666;
+}
+
+.sidebar h2{
+    background:#222;
+    color:#fff;
+    text-align:center;
+    padding:10px;
+    margin-bottom:20px;
+    font-size:28px;
+}
+
+.sidebar p{
+    margin-bottom:18px;
+    line-height:1.5;
+    font-size:16px;
+}
+
+footer{
+    text-align:center;
+    padding:15px;
+    font-size:18px;
+    background:#a7be67;
+}
