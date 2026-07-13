@@ -1,0 +1,2 @@
+1-create code ===>res ===>html using document.write
+2-solve point 1 ,2,3, 4 tell ===>e 
