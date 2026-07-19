@@ -1,0 +1,4 @@
+part4 and part5 Lab2.pdf
+
+//MDN Doc
+Try Comen Function built In Array ,Lecture Demo
