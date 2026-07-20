@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Css Lecture Demoes</title>
+
+  <style>
+    .bPink {
+      background-color: pink;
+    }
+
+    .bGrey {
+      background-color: darkcyan;
+      color: aqua;
+      font-size: 20px;
+    }
+
+    .fontLarge {
+      font-size: large;
+      background-color: lightcoral;
+      border: 1px solid green;
+      border-radius: 75px;
+    }
+
+    .fontGreen {
+      color: green;
+    }
+
+    .fontBlue {
+      color: Blue;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="">
+    <h1>Selectors</h1>
+    <p onclick="alert('hi');">
+      Selectors are used to fetch page elements inside an Array
+    </p>
+
+    <ul id="list1">
+      <!---->
+      <li class="a" on>
+        <code><i>tag</i></code>: Select all of the &lt;tag&gt; elements
+      </li>
+      <li class="a">
+        <code><i>.className</i></code>: Select all elements that have the <i>className</i> class applied
+      </li>
+      <li class="b">
+        <code>#identifier</code>: Select the element with the id of
+        <i>identifier</i>
+      </li>
+      <li class="b">
+        <code><i>tag.className</i></code>: Select all &lt;tag&gt; elements that have the
+        <i>className</i> class applied
+      </li>
+    </ul>
+  </div>
+  <!-- <div id="example" style="background-color: lightgreen;color:red;font-size: 15;">hellows</div> -->
+  <h1 class="bPink">Css Hierarchy Selectors</h1>
+  <p>
+    To select elements based on their position in the document tree, use the
+    Hierarchy Selectors.
+  </p>
+  <p>
+    The Hierarchy Selectors work by examining the position of target elements
+    relative to other elements:
+  </p>
+  <ol id="list2">
+    <li>
+      <code>parent > child</code>: selects "child" elements that are immediate
+      descendants of the "parent"
+    </li>
+    <li>
+      <code>ancestor descendant</code>: selects "descendant" elements as long
+      as they have an "ancestor" element somewhere above them
+    </li>
+    <li>
+      <code>prev + next</code>: selects the "next" element if it is
+      immediately preceded by a "prev" element
+    </li>
+    <li>
+      <code>prev ~ siblings</code>: selects all "siblings" elements that come
+      after a "prev" element
+    </li>
+  </ol>
+  <!-- <div id="example">
+    <p>HIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII</p>
+  </div> -->
+  <div id="example" name="exampleDiv" class="a bPink bGrey fontLarge">
+    My div
+    <a>
+      <p class="a" id="partext">This is paragraph 1</p>
+    </a>
+    <p id="para2">This is paragraph 2</p>
+    <p class="bGrey fontBlue">
+      This is paragraph 3 <span> this is span 1</span>
+    </p>
+    <span>
+      <p id="para4">This is paragraph 4</p>
+    </span>
+  </div>
+  <button id="CSP">ChangeStyleprops</button>
+  <button id="MyBTN">ChangeStyleString</button>
+  <br />
+  <img src="images/bernal.jpg" name="firstImage" />
+  <img src="images/california_natives.jpg" id="secondImg" />
+  <input type="text" />
+  <input type="text" />
+  <input type="text" />
+  <h3>HTML Table 1</h3>
+  <table class="bGrey">
+    <tr>
+      <td>Cell 1</td>
+      <td>Cell 2</td>
+    </tr>
+    <tr>
+      <td>Cell 3</td>
+      <td>Cell 4</td>
+    </tr>
+    <tr>
+      <td>Cell 5</td>
+      <td>Cell 6</td>
+    </tr>
+  </table>
+  <h3>HTML Table 2</h3>
+  <table class="bPink" name="Mytbl">
+    <tr>
+      <td><a href="http://www.iti.gov.eg"> ITI </a></td>
+      <td>Cell 2</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.google.com" id="googleAnchor"> google </a></td>
+      <td>Cell 4</td>
+    </tr>
+    <tr>
+      <td><a href="next.html"> MyPage </a></td>
+      <td>Cell 6</td>
+    </tr>
+  </table>
+
+  <h3>HTML Form</h3>
+  <form name="basicForm" class="bGrey fontBlue">
+    <fieldset>
+      <legend>Filters Form</legend>
+
+      <input type="text" value="Type your name here" />
+      <br />
+      <input type="text" value="Type your age" />
+      <br />
+      <input type="button" value="send" id="btn" />
+    </fieldset>
+  </form>
+  <form id="UserData" name="regForm" action="Data.aspx">
+    <!--ffff-->
+
+    <input type="text" name="txtName" />
+    <br />
+
+    <span id="error" style="background-color: red;color: #000;"></span>
+    <input type="text" value="Type your age" name="textAge" />
+    <input type="checkbox" name="hoppy" value="Running" />Running
+    <input type="checkbox" name="hoppy" value="Swimming" checked />Swimming
+    <input type="checkbox" name="hoppy" value="Reading" />Reading<br />
+    <select name="City" class="bPink">
+      <option value="Mansoura">Mansoura</option>
+      <option value="Cairo">Cairo</option>
+      <option value="Alex">Alex</option>
+      <option value="Smart">Smart</option>
+    </select>
+    <input type="submit" value="Send" name="submitbtn" />
+  </form>
+
+  <br />
+  <br />
+  <br />
+  <script src="JS/DomSelector.js"></script>
+</body>
+
+</html>

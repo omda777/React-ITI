@@ -1,0 +1,81 @@
+﻿<html>
+<html>
+
+<head>
+    <style>
+        #log {
+            color: red;
+        }
+
+        .HoverClass {
+            background-color: lightcyan;
+            color: blueviolet;
+            text-align: center;
+            font-size: 12px;
+            margin: 5px;
+            padding: 5px;
+            border: 2px solid green;
+            border-radius: 85px;
+        }
+    </style>
+    <script src="JS/Events.js"></script>
+
+</head>
+
+<body>
+    <img src="images/1.jpg" style="width:200px;height: 200px;" name="firstImage" />
+    <span>
+        This is span
+    </span>
+    <p id="p1">
+        This is basic window
+    </p>
+    <h4>Lecture Contents</h4>
+    <p> Timers SetInterval and setTimeout</p>
+    <p> window object with properties and methods</p>
+    <p> Describe meaning of Events</p>
+    <p> calling events with different Methods</p>
+    <p> Event Bubbling </p>
+    <p> Event Delegation </p>
+
+    <button on id="updateBtn" onclick="alert('Hi from INLINE HANDLER')">UpdateTitle</button>
+
+
+    <button id="clickMeBtn" onclick="aler('hi from inline fire');">Click Me</button>
+    <button id="btnRemoveListener">RemoveCallbackListenerEvent</button>
+    <input id="createBtn" type="button" value="Create Element" />
+
+    <br />
+    <div id="testingDiv" style="width:300px;height:300px;background-color:pink;border:blue solid 3px">
+        frgjdfvm,d
+    </div>
+    <br />
+    <br />
+    <a id="anchor1" href="http://www.google.com" onclick="">Google</a>
+    <ul id="ulElm">
+        <li id="LiElm"> Elm1 </li>
+        <li id="LiElm"> Elm2 </li>
+        <li id="LiElm"> Elm3 </li>
+        <li id="LiElm"> Elm4 </li>
+    </ul>
+
+    <input  id="whichkey" type="text" value="" placeholder="plz add your value" /><span id="log"></span></br>
+    <input type="button" value="AddnewELement" id="AddnewELement" /><br />
+    <input type="button" value="HideShowElement" id="HideShowElement" /><br />
+    <input id="EOW" type="button" value="End Of The World" />
+    <input id="TimeBtn" type="button" value="3" />
+    <input type="checkbox" name="hoppy" onchange="Checkchecked();" />Write
+    <input type="checkbox" name="hoppy" onchange="Checkchecked();" />swimming
+    <input type="checkbox" name="hoppy" onchange="Checkchecked();" />Watch TV
+    <input type="button" value="textCheckBox" onclick="Checkchecked();" />
+    <select name="coures" id="selectCours">
+        <option value="0"> please select your course</option>
+        <option value="1">JS</option>
+        <option value="2">HTML</option>
+
+    </select>
+    <br />
+
+</body>
+
+</html>
