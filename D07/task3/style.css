@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.container{
+    width: 500px;
+    margin: auto;
+    background-color: rgb(0, 255, 0);
+    border-radius: 10px;
+    padding: 10px;
+}
+.head{
+    background-color: rgb(0, 94, 255);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.stopwatch{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    border: 2px solid rgb(30, 30, 181);
+    border-radius: 10px;
+
+}
+.controls{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    background-color: rgb(255, 0, 123);
+    border: 2px solid rgb(16, 177, 140);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+        
+}
