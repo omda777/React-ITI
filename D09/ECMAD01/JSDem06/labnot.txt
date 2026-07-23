@@ -1,0 +1,3 @@
+Try Lecture Demo
+doc ===MDN===>Object &constructor function 
+//try lab
