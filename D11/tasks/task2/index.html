@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+    <form id="form" class="form">
+      <div class="field">
+        <label for="name">name</label>
+        <input type="text" id="name" />
+        <small id="nameError" class="error"></small>
+      </div>
+
+      <div class="field">
+        <label for="age">age</label>
+        <input type="number" id="age" />
+        <small id="ageError" class="error"></small>
+      </div>
+
+      <div class="field">
+        <label for="salary">salary</label>
+        <input type="number" id="salary" />
+        <small id="salaryError" class="error"></small>
+      </div>
+
+      <div class="field">
+        <label for="department">department</label>
+        <select id="department">
+          <option value="OS">OS</option>
+          <option value="SD">SD</option>
+          <option value="HR">HR</option>
+          <option value="IT">IT</option>
+        </select>
+      </div>
+
+      <button type="submit">add Employee</button>
+    </form>
+
+    <div class="controls">
+      <div class="field">
+        <label for="sort">Sort</label>
+        <select id="sort">
+          <option value="none">sorting</option>
+          <option value="name">Name</option>
+          <option value="department">Department</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="filter">Filter</label>
+        <select id="filter">
+          <option value="All">All</option>
+          <option value="OS">OS</option>
+          <option value="SD">SD</option>
+          <option value="HR">HR</option>
+          <option value="IT">IT</option>
+        </select>
+      </div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Department</th>
+          <th>Age</th>
+          <th>Salary</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+      <tbody id="employeeTable"></tbody>
+    </table>
+  </div>
+
+
+    <script type="module" src="./modules/script.js"></script>
+</body>
+</html>
